@@ -1,0 +1,103 @@
+:root{
+    --tomato:hsl(4, 100%, 67%);
+    --Dark-Slate-Grey:hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+}
+*,::before,::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto",sans-serif;
+    background-color: var(--Charcoal-Grey);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: clamp(800px,100%,1000px);
+    width: clamp(400px,100%,1440px);
+    margin: 0;
+    font-size: 16px;
+}
+main{
+    width:60%;
+    height: 60%;
+    background-color: var(--White);
+    display: flex;
+    margin: 50px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+h1{
+    color: var(--Dark-Slate-Grey);
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.left{
+    width:50%;
+    margin-left: 20px;
+}
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right{
+  width:50%;
+  display: flex;
+  align-items: center;
+}
+.right svg{
+  width: 97%;
+  height: 90%;
+}
+
+label{
+    font-weight: 600;
+    margin-top: 30px;
+    display: flex;
+    font-size: 12px;
+   
+}
+
+input{
+    display: flex;
+    padding: 5px;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--Grey);
+    height: 40px; 
+}
+.fel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    width: 80%;
+    height: 40px; 
+    border-radius: 5px;
+    color: var(--White);
+    background-color: var(--Dark-Slate-Grey);
+    border: none;
+}
+button:hover{
+    background-color: var(--tomato);
+    cursor: pointer;
+}
+span{
+    position: relative;
+    left:108px;
+    color: var(--tomato);
+    font-weight: 400;
+    display: none;
+}
+.invalid{
+    border:1px solid var(--tomato);
+    background-color: #FFEEEE;
+    color: var(--tomato);
+    font-weight: 400;
+}
