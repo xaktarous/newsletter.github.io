@@ -90,6 +90,7 @@ button{
 button:hover{
     background-color: var(--tomato);
     cursor: pointer;
+    color: var(--White);
 }
 span{
     position: relative;
@@ -113,7 +114,7 @@ span{
     body{
         background-color: var(--Charcoal-Grey);
         margin: 0;
-        height: 100vh;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -128,8 +129,8 @@ span{
     display: flex;
     flex-direction: column-reverse;
     background-color: var(--White);
-    width:85%;
-    height: 85%;
+    width:90%;
+    height: 90%;
     justify-content: center;
     align-items: center;
     border-radius: 0%;
