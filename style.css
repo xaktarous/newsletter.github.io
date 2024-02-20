@@ -115,7 +115,10 @@ span{
         width:100%;
         height: 100%;
     }
- 
+    h1{
+        color: var(--Dark-Slate-Grey);
+        font-size: 35px;
+    }
    main{
     display: flex;
     flex-direction: column-reverse;
@@ -129,13 +132,13 @@ span{
     display: none;
    }
    .svg{
-    display: block ;
-    margin: 0;
+    display: flex ;
+    margin: 0 ;
     width: max(80%,375px);
     position: relative;
     height: 60%;
     justify-self: center;
-    transform: scale(1.044);
+    
    }
    .right{
     width:100%;
@@ -163,7 +166,10 @@ span{
         width:100%;
         height: 100%;
     }
- 
+    h1{
+        color: var(--Dark-Slate-Grey);
+        font-size: 35px;
+    }
    main{
     display: flex;
     flex-direction: column-reverse;
@@ -179,11 +185,11 @@ span{
    .svg{
     display: block ;
     margin: 0;
-    width: max(80%,375px);
+    width: max(80%,380px);
     position: relative;
     height: 60%;
     justify-self: center;
-    transform: scale(1.15);
+    transform: scale(1.135);
    }
    .right{
     width:100%;
