@@ -124,7 +124,7 @@ span{
        display: flex;
        justify-content: center;
        align-items: center;
-      
+      overflow: hidden;
     }
     h1{
         color: var(--Dark-Slate-Grey);
@@ -134,7 +134,7 @@ span{
     display: flex;
     flex-direction: column-reverse;
     background-color: var(--White);
-    width:100%;
+    width: 450px;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -149,31 +149,41 @@ span{
     display: block ;
     margin: 0;
     position: relative;
+    top: -20px;
     
    }
    
    img{
     margin: 0;
     padding: 0;
-    transform: scale(1.15);
+    
  
   }
    .right{
-    width:100%;
+    width:375px;
     
    }
    .left{
-    width: 90%;
+    width: 375px;
     margin-left: 30px;
     height: 70%;
    }
  
    span{
     position: relative;
-    left:50px;
+    left:130px;
     color: var(--tomato);
     font-weight: 400;
     display: none;
+   }
+   button{
+    margin-bottom: 30px;
+   }
+   button{
+    width: 90%;
+   }
+   input{
+    width:90%;
    }
 }
 
@@ -199,7 +209,7 @@ span{
     display: flex;
     flex-direction: column-reverse;
     background-color: var(--White);
-    width:100%;
+    width: 390px;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -214,25 +224,28 @@ span{
     display: block ;
     position: relative;
     margin: 0;
+    top: -20px;
+    
    }
    img{
     width: 100%;
     margin: 0;
-  
+    border:0;
+    padding: 0;
    }
    .right{
-    width:100%;
+    width:375px;
     margin: 0;
+   
    }
    .left{
-    width: 80%;
+    width: 375px;
     margin-left: 30px;
-    height: 70%;
    }
  
    span{
     position: relative;
-    left: 0px;
+    left: 130px;
     color: var(--tomato);
     font-weight: 400;
     display: none;
