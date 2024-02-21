@@ -120,13 +120,14 @@ span{
 
 @media screen and (max-width:450px) {
     body{
-        background-color: var(--Charcoal-Grey);
+        background-color: var(--White);
        margin: 0;
        height: 100%;
        display: flex;
        justify-content: center;
        align-items: center;
       overflow: hidden;
+      flex-direction: column;
     }
     h1{
         color: var(--Dark-Slate-Grey);
@@ -151,7 +152,7 @@ span{
     display: block ;
     margin: 0;
     position: relative;
-    top: -20px;
+   
     
    }
    
@@ -199,8 +200,9 @@ span{
         display: flex;
         justify-content: center;
         align-items: center;
-        
+        flex-direction: column;
         width: 100%;
+        background-color: var(--White);
     }
     
     h1{
@@ -226,7 +228,7 @@ span{
     display: block ;
     position: relative;
     margin: 0;
-    top: -20px;
+   
     
    }
    img{
