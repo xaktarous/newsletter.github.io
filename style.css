@@ -44,7 +44,7 @@ h1{
 li{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 li svg{
     width: 20px;
@@ -132,7 +132,7 @@ span{
     }
     h1{
         color: var(--Dark-Slate-Grey);
-        font-size: 35px;
+        font-size: 30px;
         margin: 0;
     }
    main{
@@ -188,6 +188,9 @@ span{
    input{
     width:90%;
    }
+   label{
+    margin-top: 10px;
+   }
 }
 
 
@@ -207,7 +210,7 @@ span{
     
     h1{
         color: var(--Dark-Slate-Grey);
-        font-size: 35px;
+        font-size: 30px;
         margin: 0;
     }
    main{
