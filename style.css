@@ -22,7 +22,7 @@ body{
 }
 main{
     width:max(60%,600px);
-    height: min(600px,80%) ;
+
     background-color: var(--White);
     display: flex;
     margin: auto;
